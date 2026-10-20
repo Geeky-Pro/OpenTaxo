@@ -1,0 +1,15 @@
+create index if not exists attribute_aliases_created_by_idx on public.attribute_aliases(created_by);
+create index if not exists attributes_created_by_idx on public.attributes(created_by);
+create index if not exists attributes_measurement_dimension_id_idx on public.attributes(measurement_dimension_id);
+create index if not exists attributes_updated_by_idx on public.attributes(updated_by);
+create index if not exists product_type_attributes_attribute_id_fk_idx on public.product_type_attributes(attribute_id);
+create index if not exists product_type_attributes_created_by_idx on public.product_type_attributes(created_by);
+create index if not exists product_type_attributes_updated_by_idx on public.product_type_attributes(updated_by);
+create index if not exists product_type_schemas_created_by_idx on public.product_type_schemas(created_by);
+create index if not exists product_type_schemas_updated_by_idx on public.product_type_schemas(updated_by);
+create index if not exists selling_unit_definitions_base_selling_unit_id_idx on public.selling_unit_definitions(base_selling_unit_id);
+create index if not exists selling_unit_definitions_measurement_dimension_id_idx on public.selling_unit_definitions(measurement_dimension_id);
+create index if not exists taxonomy_aliases_created_by_idx on public.taxonomy_aliases(created_by);
+create index if not exists taxonomy_nodes_created_by_idx on public.taxonomy_nodes(created_by);
+create index if not exists taxonomy_nodes_updated_by_idx on public.taxonomy_nodes(updated_by);
+create index if not exists unit_conversion_rules_selling_unit_definition_id_idx on public.unit_conversion_rules(selling_unit_definition_id);

@@ -1,0 +1,6 @@
+-- Migration-history reconciliation only.
+-- The canonical Storage bucket and policies are created by
+-- 20261015191025_categories_storage_bucket_and_owner_policies.sql.
+-- This version was already recorded in the linked Supabase project after
+-- the duplicate migration was applied there. Keep this no-op file so local
+-- migration history matches the remote version without reapplying DDL.
