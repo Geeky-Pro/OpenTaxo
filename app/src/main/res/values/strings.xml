@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YCP مخطط التصنيفات</string>
+    <string name="app_subtitle">مركز إدارة التصنيفات والكتالوج المركزي</string>
+    <string name="nav_dashboard">الرئيسية</string>
+    <string name="nav_taxonomy">التصنيفات</string>
+    <string name="nav_tree">الشجرة</string>
+    <string name="nav_browse">المتجر</string>
+    <string name="nav_definitions">التعريفات</string>
+    <string name="search_spotlight_hint">ابحث في التصنيفات والخصائص (Spotlight)…</string>
+    <string name="export_catalog_title">تصدير الكتالوج المثرى (JSON)</string>
+    <string name="owner_mode_unlocked">وضع المالك: التحرير مفعّل</string>
+    <string name="owner_mode_locked">وضع القراءة فقط (قفل المالك)</string>
+    <string name="sync_cloud_button">مزامنة Supabase</string>
+</resources>

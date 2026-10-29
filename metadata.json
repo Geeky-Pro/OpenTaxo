@@ -1,0 +1,6 @@
+{
+  "name": "YCP مخطط التصنيفات",
+  "description": "أداة تخطيط وتنظيم تصنيفات المتجر الإلكتروني وإدارة الكتالوج المركزي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

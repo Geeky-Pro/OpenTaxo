@@ -1,0 +1,6 @@
+{
+  "summary":  "خطة تنفيذية شاملة لتحويل تطبيق YCP Taxonomy & Catalog Planner من تطبيق ويب (Next.js) إلى تطبيق أندرويد أصيل باستخدام Kotlin وJetpack Compose مع قاعدة بيانات Room محلية ومزامنة Supabase وتصدير JSON عبر النظام.",
+  "updatedAt":  "2026-10-29T22:41:25.485298648Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
