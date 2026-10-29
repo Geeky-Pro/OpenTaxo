@@ -30,11 +30,17 @@ class SupabaseSyncService {
 
     private val json = Json { ignoreUnknownKeys = true }
 
+    private fun readOptionalBuildConfig(fieldName: String): String =
+        runCatching {
+            val field = BuildConfig::class.java.getDeclaredField(fieldName)
+            (field.get(null) as? String).orEmpty().trim()
+        }.getOrDefault("")
+
     val supabaseUrl: String
-        get() = BuildConfig.NEXT_PUBLIC_SUPABASE_URL.trim().trimEnd('/')
+        get() = readOptionalBuildConfig("NEXT_PUBLIC_SUPABASE_URL").trimEnd('/')
 
     val supabasePublishableKey: String
-        get() = BuildConfig.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY.trim()
+        get() = readOptionalBuildConfig("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY")
 
     val isConfigured: Boolean
         get() = supabaseUrl.startsWith("http") && supabasePublishableKey.isNotEmpty()

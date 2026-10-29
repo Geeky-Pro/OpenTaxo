@@ -575,10 +575,10 @@ object SeedCatalogData {
             id = "cat_bdA6rAzeZzoHTP-jtyoBV",
             legacyId = "cat_bdA6rAzeZzoHTP-jtyoBV",
             nodeType = NodeType.DEPARTMENT.key,
-            nameAr = "الأدوية والمنتجات الطبية",
-            nameEn = "Medications & Medical Products",
-            description = "المستلزمات الطبية والأجهزة الصحية والمنتجات الدوائية.",
-            slug = "medications-and-medicinal-products",
+            nameAr = "المعدات والعدد الصناعية",
+            nameEn = "Industrial Tools & Equipment",
+            description = "العدد اليدوية والكهربائية ومعدات الورش والسلامة المهنية.",
+            slug = "industrial-tools-and-equipment",
             parentId = null,
             sortOrder = 5
         )

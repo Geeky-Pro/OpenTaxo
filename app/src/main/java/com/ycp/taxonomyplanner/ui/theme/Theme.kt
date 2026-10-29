@@ -10,23 +10,13 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.sp
-import com.ycp.taxonomyplanner.R
 
-val IbmPlexArabicFontFamily = FontFamily(
-    Font(R.font.ibm_plex_sans_arabic, FontWeight.Normal),
-    Font(R.font.ibm_plex_sans_arabic, FontWeight.Medium),
-    Font(R.font.ibm_plex_sans_arabic, FontWeight.SemiBold),
-    Font(R.font.ibm_plex_sans_arabic, FontWeight.Bold)
-)
-
-val IbmPlexMonoFontFamily = FontFamily(
-    Font(R.font.ibm_plex_mono, FontWeight.Normal)
-)
+val IbmPlexArabicFontFamily = FontFamily.SansSerif
+val IbmPlexMonoFontFamily = FontFamily.Monospace
 
 private val LightColors = lightColorScheme(
     primary = Color(0xFF2563EB),
